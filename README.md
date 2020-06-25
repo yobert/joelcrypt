@@ -1,5 +1,11 @@
 Just a little tool to generate a unix-style SHA-512 password hash, with a random salt.
 
+To build it, you'll need to have https://golang.org/ installed.
+
+    $ git clone https://github.com/yobert/joelcrypt
+    $ cd joelcrypt
+    $ go build
+
 Use it like:
 
     $ echo -n "secret" | ./joelcrypt 
